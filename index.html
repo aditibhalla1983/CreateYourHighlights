@@ -45,7 +45,6 @@
       box-shadow: 0 20px 40px rgba(0,0,0,0.8);
     }
 
-    /* Dynamic Island / Notch */
     .notch {
       position: absolute;
       top: 0;
@@ -59,7 +58,6 @@
       z-index: 100;
     }
 
-    /* Status Bar Simulation */
     .status-bar {
       height: 44px;
       padding: 0 32px 0 24px;
@@ -79,7 +77,6 @@
       font-size: 12px;
     }
 
-    /* Main Viewport Container */
     .screen-container {
       flex: 1;
       position: relative;
@@ -111,7 +108,6 @@
       display: none;
     }
 
-    /* Header Styling */
     .app-header {
       display: flex;
       justify-content: space-between;
@@ -150,7 +146,6 @@
       margin: 16px 0 12px 0;
     }
 
-    /* ACTIVITY 1: DISCOVER ENTRY ZONE */
     .creation-entry-zone {
       display: flex;
       align-items: center;
@@ -188,7 +183,6 @@
       font-size: 18px;
     }
 
-    /* Recap Highlight Horizontal Scroll System */
     .recap-container {
       display: flex;
       gap: 12px;
@@ -277,7 +271,6 @@
       margin: 12px 0 24px 0;
     }
 
-    /* Past Memories Section */
     .past-memories-header {
       display: flex;
       justify-content: space-between;
@@ -290,7 +283,6 @@
       color: var(--text-muted);
     }
 
-    /* ACTIVITY 1: EXPLANATION POPOVER OVERLAY */
     .popover-overlay {
       position: absolute;
       top: 0;
@@ -339,7 +331,6 @@
       margin-bottom: 16px;
     }
 
-    /* ACTIVITY 2: SELECTION SCREEN ARCHITECTURE */
     .selection-header {
       padding: 12px 16px;
       display: flex;
@@ -467,6 +458,22 @@
       font-weight: 900;
     }
 
-    /* States Views */
     .state-view {
       display: none;
+      text-align: center;
+      padding: 40px 16px;
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+
+    .sticky-footer {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: linear-gradient(to top, rgba(0,0,0,1) 85%, rgba(0,0,0,0) 100%);
+      padding: 24px 16px;
+      z-index: 30;
+    }
+
+    .footer-helper-text {
